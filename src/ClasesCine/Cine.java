@@ -11,11 +11,9 @@ import java.util.Date;
  *
  * @author Milton
  */
-public class Pelicula {
-    private int añoEstreno;
-    private boolean disponible;
-    private float duracion;
-    private Date fechaIngreso;
+public class Cine {
+    private String direccion;
+    private Date fechaInauguracion;
     private String nombre;
-    private String tituloOriginal;    
+    private float precioEntrada;
 }

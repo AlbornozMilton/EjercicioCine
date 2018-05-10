@@ -11,11 +11,11 @@ import java.util.Date;
  *
  * @author Milton
  */
-public class Pelicula {
-    private int añoEstreno;
-    private boolean disponible;
-    private float duracion;
-    private Date fechaIngreso;
-    private String nombre;
-    private String tituloOriginal;    
+public class HorarioFuncion {
+    private String diaDeSemana;
+    private int duracionIntervalo;
+    private int duracionPublicidad;
+    private boolean esTrasnoche;
+    private Date horaPrimeraFuncion;
+    private Date horaUltimaFuncion;
 }

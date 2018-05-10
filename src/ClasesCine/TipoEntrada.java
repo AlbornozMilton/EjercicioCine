@@ -5,17 +5,10 @@
  */
 package ClasesCine;
 
-import java.util.Date;
-
 /**
  *
  * @author Milton
  */
-public class Pelicula {
-    private int añoEstreno;
-    private boolean disponible;
-    private float duracion;
-    private Date fechaIngreso;
+class TipoEntrada {
     private String nombre;
-    private String tituloOriginal;    
 }
