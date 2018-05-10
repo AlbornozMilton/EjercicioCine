@@ -16,4 +16,11 @@ public class Funcion {
     private String diaSemana;
     private int duracion;
     private Date horaInicio;
+    
+    //Relaciones
+    private Pelicula pelicula;
+    private TipoFuncion tipo;
+    private Entrada entradas;
+    private Sala sala;
+    private Programacion programacion;
 }

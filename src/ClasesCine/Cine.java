@@ -16,4 +16,9 @@ public class Cine {
     private Date fechaInauguracion;
     private String nombre;
     private float precioEntrada;
+    
+    //Relaciones
+    private Sala salas;
+    private Programacion programaciones;
+    private HorarioFuncion horarios;
 }

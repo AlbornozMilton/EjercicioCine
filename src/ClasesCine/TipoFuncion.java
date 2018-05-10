@@ -9,9 +9,7 @@ package ClasesCine;
  *
  * @author Milton
  */
-public class Actor {
-    private boolean animado;
-    private String apellido;
+class TipoFuncion {
     private String nombre;
-    private Sexo sexo;
+    private String descripcion;
 }

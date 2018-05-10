@@ -6,6 +6,7 @@
 package ClasesCine;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  *
@@ -17,5 +18,12 @@ public class Pelicula {
     private float duracion;
     private Date fechaIngreso;
     private String nombre;
-    private String tituloOriginal;    
+    private String tituloOriginal; 
+    
+    //relaciones
+    private List<Personaje> personajes;
+    private PaisDeOrigen pais;
+    private Genero genero;
+    private Calificacion calificacion;
+    private Funcion funciones;
 }
