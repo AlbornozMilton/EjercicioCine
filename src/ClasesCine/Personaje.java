@@ -11,4 +11,11 @@ package ClasesCine;
  */
 public class Personaje {
     private String nombreEnPelicula;
+    
+    
+    //ctor
+    public void Personaje(String unNombre)
+    {
+        this.nombreEnPelicula = unNombre;
+    }
 }

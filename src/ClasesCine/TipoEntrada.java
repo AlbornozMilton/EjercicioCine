@@ -9,6 +9,13 @@ package ClasesCine;
  *
  * @author Milton
  */
-class TipoEntrada {
+public class TipoEntrada {
     private String nombre;
+    
+
+    //ctor    
+    public void TipoEntrada(String unNombre)
+    {
+        this.nombre = unNombre;
+    }
 }

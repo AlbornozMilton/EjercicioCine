@@ -15,4 +15,13 @@ public class Programacion {
     private Date fechaFin;
     private Date fechaHoraCreada;
     private Date fechaInicio;
+    
+    
+    //ctor
+    public void Programacion(Date unaFechaInicio, Date unaFechaFin, Date unDateCreacion)
+    {
+        this.fechaInicio = unaFechaInicio;
+        this.fechaFin = unaFechaFin;
+        this.fechaHoraCreada = unDateCreacion;
+    }
 }

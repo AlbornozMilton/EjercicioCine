@@ -14,4 +14,14 @@ public class Actor {
     private String apellido;
     private String nombre;
     private Sexo sexo;
+    
+    
+    //constructor
+    public void Actor (String unNombre, String unApellido, Sexo unSexo, boolean animado)
+    {
+        this.nombre = unNombre;
+        this.apellido = unApellido;
+        this.sexo = unSexo;
+        this.animado = animado;
+    }
 }

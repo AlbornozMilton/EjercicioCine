@@ -17,4 +17,14 @@ public class Entrada {
     private Date fechaHoraFuncion;
     private Date fechaHoraVenta;
     private float precioCobrado;
+    
+    //Constructor
+    public void Entrada(int unNro, TipoEntrada unTipo, Date unDateFuncion, Date unDateVenta, float unPrecio)
+    {
+        this.ticketNro = unNro;
+        this.tipo = unTipo;
+        this.fechaHoraFuncion = unDateFuncion;
+        this.fechaHoraVenta = unDateVenta;
+        this.precioCobrado = unPrecio;
+    }
 }

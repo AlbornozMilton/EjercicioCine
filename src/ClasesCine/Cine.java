@@ -21,4 +21,13 @@ public class Cine {
     private Sala salas;
     private Programacion programaciones;
     private HorarioFuncion horarios;
+    
+    //constructor
+    public void Cine (String unaDireccion, Date unaFecha, String unNombre, float unPrecio)
+    {
+        this.direccion = unaDireccion;
+        this.fechaInauguracion = unaFecha;
+        this.nombre = unNombre;
+        this.precioEntrada = unPrecio;
+    }
 }

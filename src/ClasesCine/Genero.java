@@ -11,4 +11,11 @@ package ClasesCine;
  */
 public class Genero {
     private String nombre;
+    
+    
+    //ctor
+    public void Genero (String unNombre)
+    {
+        this.nombre = unNombre;
+    }
 }

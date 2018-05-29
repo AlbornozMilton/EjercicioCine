@@ -23,4 +23,14 @@ public class Funcion {
     private Entrada entradas;
     private Sala sala;
     private Programacion programacion;
+    
+    
+    //Constructor
+    public void Funcion (int unNumero, String unDia, int unaDuracion, Date unaHora)
+    {
+        this.diaSemana = unDia;
+        this.numero = unNumero;
+        this.duracion = unaDuracion;
+        this.horaInicio = unaHora;
+    }
 }

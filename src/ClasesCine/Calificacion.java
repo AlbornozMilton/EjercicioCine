@@ -11,4 +11,11 @@ package ClasesCine;
  */
 public class Calificacion {
     private String nombre;
+    
+    
+    //ctor
+    public void Calificacion (String unNombre)
+    {
+        this.nombre = unNombre;
+    }
 }

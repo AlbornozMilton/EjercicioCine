@@ -12,4 +12,12 @@ package ClasesCine;
 public class PaisDeOrigen {
     private String idioma;
     private String nombre;
+    
+    
+    //ctor
+    public void PaisDeOrigen(String unIdioma, String unNombre)
+    {
+        this.idioma = unIdioma;
+        this.nombre = unNombre;
+    }
 }

@@ -9,7 +9,15 @@ package ClasesCine;
  *
  * @author Milton
  */
-class TipoFuncion {
+public class TipoFuncion {
     private String nombre;
     private String descripcion;
+    
+
+    //ctor
+    public void TipoFuncion(String unNombre, String unaDescripcion)
+    {
+        this.nombre = unNombre;
+        this.descripcion = unaDescripcion;
+    }
 }

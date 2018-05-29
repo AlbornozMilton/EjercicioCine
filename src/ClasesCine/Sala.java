@@ -11,5 +11,13 @@ package ClasesCine;
  */
 public class Sala {
     private int numero;
-    private int capacidad;           
+    private int capacidad;       
+
+    
+    //ctor
+    public void Sala(int unNro, int unaCapacidad)
+    {
+        this.numero = unNro;
+        this.capacidad = unaCapacidad;
+    }
 }
